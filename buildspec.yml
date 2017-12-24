@@ -4,9 +4,6 @@ phases:
   build:
     commands:
       - echo Nothing to do yet
-  post_build:
-    commands:
-      - aws s3 sync output s3://portfoliobuild.sanoj.info
 artificat:
   files:
     - index.html
