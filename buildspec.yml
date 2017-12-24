@@ -1,12 +1,13 @@
-version: 0.1
+version: 0.2
 
 phases:
   build:
     commands:
-      - echo Nothing to do stylesheet
+      - echo Nothing to do yet
 artificat:
   files:
     - index.html
     - favicon.ico
     - styles/main.css
     - images/*
+    
