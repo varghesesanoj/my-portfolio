@@ -6,8 +6,5 @@ phases:
       - echo Nothing to do yet
 artificat:
   files:
-    - index.html
-    - favicon.ico
-    - styles/main.css
-    - images/*
-  base-directory: portfoliobuild
+    - '**/*'
+  base-directory: 'output'
