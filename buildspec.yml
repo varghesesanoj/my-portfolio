@@ -10,3 +10,5 @@ artificat:
     - favicon.ico
     - styles/main.css
     - images/*
+base-directory: 'portfoliobuild'
+discard-paths: yes
